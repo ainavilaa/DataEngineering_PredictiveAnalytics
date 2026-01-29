@@ -1,0 +1,923 @@
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/providers/fab/auth_manager/fab_auth_manager.py:558 FutureWarning: section/key [webserver/update_fab_perms] has been deprecated, you should use[fab/update_fab_perms] instead. Please update your `conf.get*` call to use the new name
+[2025-12-29 20:42:27 +0100] [184663] [INFO] Starting gunicorn 21.2.0
+[2025-12-29 20:42:27 +0100] [184663] [INFO] Listening at: http://0.0.0.0:8085 (184663)
+[2025-12-29 20:42:27 +0100] [184663] [INFO] Using worker: sync
+[2025-12-29 20:42:27 +0100] [184748] [INFO] Booting worker with pid: 184748
+[2025-12-29 20:42:27 +0100] [184752] [INFO] Booting worker with pid: 184752
+[2025-12-29 20:42:27 +0100] [184753] [INFO] Booting worker with pid: 184753
+[2025-12-29 20:42:27 +0100] [184755] [INFO] Booting worker with pid: 184755
+127.0.0.1 - - [29/Dec/2025:20:42:28 +0100] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /home HTTP/1.1" 200 561274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/fontawesome/fontawesome.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/fontawesome/solid.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/fontawesome/regular.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/fontawesome/v4-shims.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/fontawesome/brands.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/select2/select2.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/select2/select2-bootstrap.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/appbuilder/css/ab.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/dist/airflowDefaultTheme.f664c2f31c2dd026f579.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:29 +0100] "GET /static/dist/materialIcons.b2aed9f877c993431fde.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/main.8461584ab30f513901c2.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/loadingDots.919e5f1534f5f57b7eb4.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/bootstrap-datetimepicker.min.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/switch.5dc547a0258cf18ca1e2.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/dags.706ab654e1bb6a52158f.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/flash.65805954dad3c27a3986.css HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/select2/select2.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/appbuilder/js/ab.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/moment.af388b38f7330f0c8f38.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/main.8461584ab30f513901c2.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/bootstrap-datetimepicker.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/bootstrap3-typeahead.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:30 +0100] "GET /static/dist/toggleTheme.acf125721c09f1a04027.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:31 +0100] "GET /static/appbuilder/css/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 0 "http://localhost:8085/static/appbuilder/css/fontawesome/regular.min.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:31 +0100] "GET /static/dist/d3.min.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:31 +0100] "GET /static/dist/dags.706ab654e1bb6a52158f.js HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "POST /dag_stats HTTP/1.1" 200 11762 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "POST /blocked HTTP/1.1" 200 90 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "POST /last_dagruns HTTP/1.1" 200 317 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "POST /task_stats HTTP/1.1" 200 37314 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:34 +0100] "GET /dags/bcn_rental_prediction_pipeline/grid HTTP/1.1" 200 9405 "http://localhost:8085/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:35 +0100] "GET /static/dist/grid.bab9af8afcc169d7fe9f.js HTTP/1.1" 200 0 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:35 +0100] "GET /static/dist/dag.297a63e30f6354f7d245.js HTTP/1.1" 200 0 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:36 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10781 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:37 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline HTTP/1.1" 200 1323 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:42:37 +0100] "GET /object/next_run_datasets/bcn_rental_prediction_pipeline HTTP/1.1" 200 39 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:37 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/details HTTP/1.1" 200 1708 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:39 +0100] "GET /object/graph_data?dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 444 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:42:39 +0100] "GET /api/v1/datasets?dag_ids=bcn_rental_prediction_pipeline HTTP/1.1" 200 44 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:40 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10781 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:42:41 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=collect_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:41 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10781 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=collect_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:44 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10781 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=collect_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:50 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10819 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=collect_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:54 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10819 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=mark_execution_start" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:42:57 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10819 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:00 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10819 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:03 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 10819 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:15 +0100] "POST /paused?is_paused=false&dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 2 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=collect_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:43:49 +0100] "GET /dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule HTTP/1.1" 200 9628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:50 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13175 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:50 +0100] "GET /object/graph_data?dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 444 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:43:50 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline HTTP/1.1" 200 1323 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:50 +0100] "GET /api/v1/datasets?dag_ids=bcn_rental_prediction_pipeline HTTP/1.1" 200 44 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:50 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:43:51 +0100] "GET /object/next_run_datasets/bcn_rental_prediction_pipeline HTTP/1.1" 200 39 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:51 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/details HTTP/1.1" 200 1708 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:53 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13175 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:54 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13212 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:55 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:43:58 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13212 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=mark_execution_start" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:01 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:01 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13243 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:04 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13243 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:08 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13243 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:47 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13943 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:48 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13943 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:48 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:52 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13943 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:55 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13943 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:44:59 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 13980 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:02 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14011 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:05 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14011 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:33 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14498 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=mark_execution_start" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:35 +0100] "POST /clear HTTP/1.1" 200 205 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:36 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14535 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:39 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14566 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:39 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=failed&task_id=create_exploitation_zone HTTP/1.1" 200 103 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:41 +0100] "POST /failed HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:41 +0100] "GET /home HTTP/1.1" 200 561462 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:41 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14560 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:43 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=failed&task_id=train_and_evaluate_model HTTP/1.1" 200 103 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:45 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14560 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:45 +0100] "POST /failed HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:45:46 +0100] "GET /home HTTP/1.1" 200 561864 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:46 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14624 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:49 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14624 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=scheduled__2025-12-28T00%3A00%3A00%2B00%3A00&task_id=mark_execution_start" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:51 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14624 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:53 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14624 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:45:58 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14661 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:01 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14661 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:04 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14692 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:05 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=create_exploitation_zone HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:06 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:46:07 +0100] "GET /home HTTP/1.1" 200 561865 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:07 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14753 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:10 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14753 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:10 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=train_and_evaluate_model HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:13 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:13 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:14 +0100] "GET /home HTTP/1.1" 200 561865 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:14 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:15 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:18 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:22 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:23 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/tasks/format_prices HTTP/1.1" 200 965 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:23 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices/dependencies HTTP/1.1" 200 25 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:23 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 979 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:25 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14818 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:26 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 979 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:29 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14848 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:29 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 1014 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:32 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14848 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:32 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 1014 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:33 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=format_prices HTTP/1.1" 200 2 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:35 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 14988 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:46:36 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 1014 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:22 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 1014 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:23 +0100] "GET /dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices HTTP/1.1" 200 9615 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:23 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15155 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:24 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices HTTP/1.1" 200 1014 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:24 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/tasks/format_prices HTTP/1.1" 200 965 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:24 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:32:36+00:00/taskInstances/format_prices/dependencies HTTP/1.1" 200 25 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:47:24 +0100] "GET /object/next_run_datasets/bcn_rental_prediction_pipeline HTTP/1.1" 200 39 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=format_prices" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:32 +0100] "GET /object/graph_data?dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 444 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:32 +0100] "GET /api/v1/datasets?dag_ids=bcn_rental_prediction_pipeline HTTP/1.1" 200 44 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:32 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline HTTP/1.1" 200 1322 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:32 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:32 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/details HTTP/1.1" 200 1707 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:34 +0100] "POST /clear HTTP/1.1" 200 199 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:38 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=create_exploitation_zone HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:38 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:39 +0100] "GET /home HTTP/1.1" 200 561455 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:39 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15243 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:41 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=train_and_evaluate_model HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:42 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:43 +0100] "GET /home HTTP/1.1" 200 561455 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:43 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15308 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:45 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15308 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [29/Dec/2025:20:47:45 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:51 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=format_culture HTTP/1.1" 200 90 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=format_culture" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:51 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=format_culture" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:52 +0100] "GET /home HTTP/1.1" 200 561455 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=format_culture" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:52 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15366 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=format_culture" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:54 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=create_exploitation_zone HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:55 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:55 +0100] "GET /home HTTP/1.1" 200 561455 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:56 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15431 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:57 +0100] "GET /confirm?dag_id=bcn_rental_prediction_pipeline&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&past=false&future=false&upstream=false&downstream=false&state=success&task_id=train_and_evaluate_model HTTP/1.1" 200 100 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:59 +0100] "POST /success HTTP/1.1" 302 197 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:59 +0100] "GET /home HTTP/1.1" 200 561455 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:47:59 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15496 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00&task_id=train_and_evaluate_model" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:48:02 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15496 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:48:04 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15496 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:48:04 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A30%3A52%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:49:34 +0100] "GET /dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00 HTTP/1.1" 200 9443 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:49:34 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15556 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:49:34 +0100] "GET /object/next_run_datasets/bcn_rental_prediction_pipeline HTTP/1.1" 200 39 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A32%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:49:37 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 15556 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=details&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:33 +0100] "GET /object/graph_data?dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 444 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:33 +0100] "GET /api/v1/datasets?dag_ids=bcn_rental_prediction_pipeline HTTP/1.1" 200 44 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:33 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:33 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline HTTP/1.1" 200 1299 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:33 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/details HTTP/1.1" 200 1684 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:36 +0100] "GET /dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00 HTTP/1.1" 200 9415 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:36 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /object/graph_data?dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 444 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline HTTP/1.1" 200 1299 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /api/v1/datasets?dag_ids=bcn_rental_prediction_pipeline HTTP/1.1" 200 44 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /object/next_run_datasets/bcn_rental_prediction_pipeline HTTP/1.1" 200 39 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:37 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/details HTTP/1.1" 200 1684 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A43%3A36%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:38 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:38 +0100] "GET /api/v1/datasets/events?source_dag_id=bcn_rental_prediction_pipeline&source_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:41 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:43 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:43 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:45 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:46 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:46 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:48 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:49 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:49 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:51 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:52 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:53 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:54 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:55 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:56 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:59 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:53:59 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:00 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:02 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:02 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:03 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:05 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:06 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:06 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:24 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone HTTP/1.1" 200 1025 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:24 +0100] "GET /api/v1/dags/bcn_rental_prediction_pipeline/dagRuns/manual__2025-12-29T19:49:46+00:00/taskInstances/create_exploitation_zone/logs/1?full_content=false HTTP/1.1" 200 16343 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:24 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=logs&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:28 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:31 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:54:37 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:56:43 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=create_exploitation_zone" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:56:47 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=collect_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:56:50 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=collect_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:20:57:05 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18807 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=collect_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:46 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18903 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=collect_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:50 +0100] "POST /clear HTTP/1.1" 200 481 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:51 +0100] "POST /clear HTTP/1.1" 200 34 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:51 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18781 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:54 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18854 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:00:57 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18881 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:01 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18852 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:07 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18916 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:10 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:13 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:16 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:20 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:44 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:54 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:01:57 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=check_accidents_schedule" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:00 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=format_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:03 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18887 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=format_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:07 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18921 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=format_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:25 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18892 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=format_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:28 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18892 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00&task_id=format_accidents" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:02:31 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18892 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:04:41 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18927 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:11:28 +0100] "GET /object/grid_data?dag_id=bcn_rental_prediction_pipeline&num_runs=25 HTTP/1.1" 200 18987 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+127.0.0.1 - - [29/Dec/2025:21:11:32 +0100] "POST /paused?is_paused=false&dag_id=bcn_rental_prediction_pipeline HTTP/1.1" 200 2 "http://localhost:8085/dags/bcn_rental_prediction_pipeline/grid?tab=graph&dag_run_id=manual__2025-12-29T19%3A49%3A46%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+[2025-12-29 21:19:46 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:184748)
+[2025-12-29 21:19:46 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:184752)
+[2025-12-29 21:19:46 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:184753)
+[2025-12-29 21:19:46 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:184755)
+[2025-12-29 21:19:46 +0100] [184752] [INFO] Worker exiting (pid: 184752)
+[2025-12-29 21:19:46 +0100] [184755] [INFO] Worker exiting (pid: 184755)
+[2025-12-29 21:19:46 +0100] [184753] [INFO] Worker exiting (pid: 184753)
+[2025-12-29 21:19:46 +0100] [184748] [INFO] Worker exiting (pid: 184748)
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184752) exited with code 1
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184752) exited with code 1.
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184753) exited with code 1
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184753) exited with code 1.
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184748) exited with code 1
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184748) exited with code 1.
+[2025-12-29 21:19:47 +0100] [202415] [INFO] Booting worker with pid: 202415
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184755) exited with code 1
+[2025-12-29 21:19:47 +0100] [184663] [ERROR] Worker (pid:184755) exited with code 1.
+[2025-12-29 21:19:47 +0100] [202416] [INFO] Booting worker with pid: 202416
+[2025-12-29 21:19:47 +0100] [202417] [INFO] Booting worker with pid: 202417
+[2025-12-29 21:19:47 +0100] [202418] [INFO] Booting worker with pid: 202418
+[2025-12-29 22:20:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:202415)
+[2025-12-29 22:20:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:202416)
+[2025-12-29 22:20:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:202417)
+[2025-12-29 22:20:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:202418)
+[2025-12-29 22:20:39 +0100] [202415] [INFO] Worker exiting (pid: 202415)
+[2025-12-29 22:20:39 +0100] [202416] [INFO] Worker exiting (pid: 202416)
+[2025-12-29 22:20:39 +0100] [202418] [INFO] Worker exiting (pid: 202418)
+[2025-12-29 22:20:39 +0100] [202417] [INFO] Worker exiting (pid: 202417)
+[2025-12-29 23:01:06 +0100] [184663] [ERROR] Worker (pid:202417) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 23:01:06 +0100] [184663] [ERROR] Worker (pid:202415) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 23:01:06 +0100] [184663] [ERROR] Worker (pid:202416) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 23:01:06 +0100] [184663] [ERROR] Worker (pid:202418) was sent SIGKILL! Perhaps out of memory?
+[2025-12-29 23:01:06 +0100] [213588] [INFO] Booting worker with pid: 213588
+[2025-12-29 23:01:06 +0100] [213589] [INFO] Booting worker with pid: 213589
+[2025-12-29 23:01:06 +0100] [213590] [INFO] Booting worker with pid: 213590
+[2025-12-29 23:01:06 +0100] [213591] [INFO] Booting worker with pid: 213591
+[2025-12-29 23:21:11 +0100] [184663] [INFO] Handling signal: ttin
+[2025-12-29 23:21:11 +0100] [215465] [INFO] Booting worker with pid: 215465
+[2025-12-29 23:21:13 +0100] [184663] [INFO] Handling signal: ttou
+[2025-12-29 23:21:13 +0100] [213588] [INFO] Worker exiting (pid: 213588)
+[2025-12-30 05:39:48 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:213589)
+[2025-12-30 05:39:48 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:213590)
+[2025-12-30 05:39:48 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:213591)
+[2025-12-30 05:39:48 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:215465)
+[2025-12-30 05:39:48 +0100] [215465] [INFO] Worker exiting (pid: 215465)
+[2025-12-30 05:39:48 +0100] [213591] [INFO] Worker exiting (pid: 213591)
+[2025-12-30 05:39:48 +0100] [213589] [INFO] Worker exiting (pid: 213589)
+[2025-12-30 05:39:48 +0100] [213590] [INFO] Worker exiting (pid: 213590)
+[2025-12-30 05:39:49 +0100] [184663] [ERROR] Worker (pid:213591) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 05:39:49 +0100] [184663] [ERROR] Worker (pid:213590) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 05:39:49 +0100] [184663] [ERROR] Worker (pid:213589) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 05:39:49 +0100] [184663] [ERROR] Worker (pid:215465) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 05:39:49 +0100] [223780] [INFO] Booting worker with pid: 223780
+[2025-12-30 05:39:49 +0100] [223782] [INFO] Booting worker with pid: 223782
+[2025-12-30 05:39:49 +0100] [223783] [INFO] Booting worker with pid: 223783
+[2025-12-30 05:39:49 +0100] [223784] [INFO] Booting worker with pid: 223784
+[2025-12-30 05:50:54 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223780)
+[2025-12-30 05:50:54 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223782)
+[2025-12-30 05:50:54 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223783)
+[2025-12-30 05:50:54 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223784)
+[2025-12-30 05:50:54 +0100] [223780] [INFO] Worker exiting (pid: 223780)
+[2025-12-30 05:50:54 +0100] [223782] [INFO] Worker exiting (pid: 223782)
+[2025-12-30 05:50:54 +0100] [223783] [INFO] Worker exiting (pid: 223783)
+[2025-12-30 05:50:54 +0100] [223784] [INFO] Worker exiting (pid: 223784)
+[2025-12-30 06:50:39 +0100] [184663] [ERROR] Worker (pid:223780) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:50:39 +0100] [184663] [ERROR] Worker (pid:223782) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:50:39 +0100] [184663] [ERROR] Worker (pid:223783) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:50:39 +0100] [184663] [ERROR] Worker (pid:223784) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 06:50:39 +0100] [223809] [INFO] Booting worker with pid: 223809
+[2025-12-30 06:50:39 +0100] [223810] [INFO] Booting worker with pid: 223810
+[2025-12-30 06:50:40 +0100] [223811] [INFO] Booting worker with pid: 223811
+[2025-12-30 06:50:40 +0100] [223812] [INFO] Booting worker with pid: 223812
+[2025-12-30 08:47:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223809)
+[2025-12-30 08:47:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223810)
+[2025-12-30 08:47:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223811)
+[2025-12-30 08:47:39 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223812)
+[2025-12-30 08:47:39 +0100] [223810] [INFO] Worker exiting (pid: 223810)
+[2025-12-30 08:47:39 +0100] [223812] [INFO] Worker exiting (pid: 223812)
+[2025-12-30 08:47:39 +0100] [223811] [INFO] Worker exiting (pid: 223811)
+[2025-12-30 08:47:39 +0100] [223809] [INFO] Worker exiting (pid: 223809)
+[2025-12-30 08:47:40 +0100] [184663] [ERROR] Worker (pid:223809) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 08:47:40 +0100] [184663] [ERROR] Worker (pid:223812) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 08:47:40 +0100] [184663] [ERROR] Worker (pid:223811) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 08:47:40 +0100] [184663] [ERROR] Worker (pid:223810) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 08:47:40 +0100] [223819] [INFO] Booting worker with pid: 223819
+[2025-12-30 08:47:40 +0100] [223820] [INFO] Booting worker with pid: 223820
+[2025-12-30 08:47:41 +0100] [223821] [INFO] Booting worker with pid: 223821
+[2025-12-30 08:47:41 +0100] [223822] [INFO] Booting worker with pid: 223822
+[2025-12-30 08:56:11 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223819)
+[2025-12-30 08:56:11 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223820)
+[2025-12-30 08:56:11 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223821)
+[2025-12-30 08:56:11 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:223822)
+[2025-12-30 08:56:11 +0100] [223821] [INFO] Worker exiting (pid: 223821)
+[2025-12-30 08:56:11 +0100] [223819] [INFO] Worker exiting (pid: 223819)
+[2025-12-30 08:56:11 +0100] [223820] [INFO] Worker exiting (pid: 223820)
+[2025-12-30 08:56:11 +0100] [223822] [INFO] Worker exiting (pid: 223822)
+[2025-12-30 08:56:12 +0100] [184663] [ERROR] Worker (pid:223819) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2025-12-30 08:56:12 +0100] [184663] [ERROR] Worker (pid:223820) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 08:56:12 +0100] [184663] [ERROR] Worker (pid:223821) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/__main__.py", line 7, in <module>
+    run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:223819) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2025-12-30 08:56:12 +0100] [224203] [INFO] Booting worker with pid: 224203
+[2025-12-30 08:56:12 +0100] [224204] [INFO] Booting worker with pid: 224204
+[2025-12-30 08:56:12 +0100] [224205] [INFO] Booting worker with pid: 224205
+[2025-12-30 08:56:12 +0100] [224206] [INFO] Booting worker with pid: 224206
+[2025-12-30 09:01:11 +0100] [184663] [INFO] Handling signal: ttin
+[2025-12-30 09:01:11 +0100] [224534] [INFO] Booting worker with pid: 224534
+[2025-12-30 09:01:12 +0100] [184663] [INFO] Handling signal: ttou
+[2025-12-30 09:01:12 +0100] [224203] [INFO] Worker exiting (pid: 224203)
+[2025-12-30 11:42:45 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:224204)
+[2025-12-30 11:42:45 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:224205)
+[2025-12-30 11:42:45 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:224206)
+[2025-12-30 11:42:45 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:224534)
+[2025-12-30 11:42:45 +0100] [224534] [INFO] Worker exiting (pid: 224534)
+[2025-12-30 11:42:45 +0100] [224204] [INFO] Worker exiting (pid: 224204)
+[2025-12-30 11:42:45 +0100] [224206] [INFO] Worker exiting (pid: 224206)
+[2025-12-30 11:42:45 +0100] [224205] [INFO] Worker exiting (pid: 224205)
+[2025-12-30 11:42:46 +0100] [184663] [ERROR] Worker (pid:224205) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 11:42:46 +0100] [184663] [ERROR] Worker (pid:224204) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 11:42:46 +0100] [184663] [ERROR] Worker (pid:224206) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 11:42:46 +0100] [184663] [ERROR] Worker (pid:224534) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 11:42:46 +0100] [229407] [INFO] Booting worker with pid: 229407
+[2025-12-30 11:42:46 +0100] [229408] [INFO] Booting worker with pid: 229408
+[2025-12-30 11:42:46 +0100] [229409] [INFO] Booting worker with pid: 229409
+[2025-12-30 11:42:46 +0100] [229410] [INFO] Booting worker with pid: 229410
+[2025-12-30 12:07:27 +0100] [184663] [INFO] Handling signal: ttin
+[2025-12-30 12:07:27 +0100] [231005] [INFO] Booting worker with pid: 231005
+[2025-12-30 12:07:28 +0100] [184663] [INFO] Handling signal: ttou
+[2025-12-30 12:07:28 +0100] [229407] [INFO] Worker exiting (pid: 229407)
+[2025-12-30 12:13:12 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:229408)
+[2025-12-30 12:13:12 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:229409)
+[2025-12-30 12:13:12 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:229410)
+[2025-12-30 12:13:12 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:231005)
+[2025-12-30 12:13:12 +0100] [231005] [INFO] Worker exiting (pid: 231005)
+[2025-12-30 12:13:12 +0100] [229408] [INFO] Worker exiting (pid: 229408)
+[2025-12-30 12:13:12 +0100] [229410] [INFO] Worker exiting (pid: 229410)
+[2025-12-30 12:13:12 +0100] [229409] [INFO] Worker exiting (pid: 229409)
+[2025-12-30 12:13:13 +0100] [184663] [ERROR] Worker (pid:229408) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2025-12-30 12:13:13 +0100] [184663] [ERROR] Worker (pid:229409) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 12:13:13 +0100] [184663] [ERROR] Worker (pid:231005) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/__main__.py", line 7, in <module>
+    run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:229408) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2025-12-30 12:13:13 +0100] [231091] [INFO] Booting worker with pid: 231091
+[2025-12-30 12:13:13 +0100] [231092] [INFO] Booting worker with pid: 231092
+[2025-12-30 12:13:13 +0100] [231093] [INFO] Booting worker with pid: 231093
+[2025-12-30 12:13:13 +0100] [231094] [INFO] Booting worker with pid: 231094
+[2025-12-30 12:40:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:231091)
+[2025-12-30 12:40:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:231092)
+[2025-12-30 12:40:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:231093)
+[2025-12-30 12:40:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:231094)
+[2025-12-30 12:40:31 +0100] [231093] [INFO] Worker exiting (pid: 231093)
+[2025-12-30 12:40:31 +0100] [231092] [INFO] Worker exiting (pid: 231092)
+[2025-12-30 12:40:31 +0100] [231091] [INFO] Worker exiting (pid: 231091)
+[2025-12-30 12:40:31 +0100] [231094] [INFO] Worker exiting (pid: 231094)
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231091) exited with code 1
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231092) exited with code 1
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231092) exited with code 1.
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231091) exited with code 1.
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231094) exited with code 1
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231094) exited with code 1.
+[2025-12-30 12:40:32 +0100] [232687] [INFO] Booting worker with pid: 232687
+[2025-12-30 12:40:32 +0100] [184663] [ERROR] Worker (pid:231093) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 12:40:32 +0100] [232688] [INFO] Booting worker with pid: 232688
+[2025-12-30 12:40:32 +0100] [232689] [INFO] Booting worker with pid: 232689
+[2025-12-30 12:40:32 +0100] [232690] [INFO] Booting worker with pid: 232690
+[2025-12-30 13:08:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:232687)
+[2025-12-30 13:08:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:232688)
+[2025-12-30 13:08:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:232689)
+[2025-12-30 13:08:31 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:232690)
+[2025-12-30 13:08:31 +0100] [232688] [INFO] Worker exiting (pid: 232688)
+[2025-12-30 13:08:31 +0100] [232690] [INFO] Worker exiting (pid: 232690)
+[2025-12-30 13:08:31 +0100] [232689] [INFO] Worker exiting (pid: 232689)
+[2025-12-30 13:08:31 +0100] [232687] [INFO] Worker exiting (pid: 232687)
+[2025-12-30 13:08:32 +0100] [184663] [ERROR] Worker (pid:232687) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:08:32 +0100] [184663] [ERROR] Worker (pid:232688) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:08:32 +0100] [184663] [ERROR] Worker (pid:232689) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:08:32 +0100] [184663] [ERROR] Worker (pid:232690) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:08:32 +0100] [233910] [INFO] Booting worker with pid: 233910
+[2025-12-30 13:08:32 +0100] [233911] [INFO] Booting worker with pid: 233911
+[2025-12-30 13:08:33 +0100] [233912] [INFO] Booting worker with pid: 233912
+[2025-12-30 13:08:33 +0100] [233913] [INFO] Booting worker with pid: 233913
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8085
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================
+[2025-12-30T13:08:33.010+0100] {webserver_command.py:258} ERROR - [2 / 2] Some workers seem to have died and gunicorn did not restart them as expected
+[2025-12-30 13:55:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:233910)
+[2025-12-30 13:55:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:233911)
+[2025-12-30 13:55:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:233912)
+[2025-12-30 13:55:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:233913)
+[2025-12-30 13:55:30 +0100] [233910] [INFO] Worker exiting (pid: 233910)
+[2025-12-30 13:55:30 +0100] [233912] [INFO] Worker exiting (pid: 233912)
+[2025-12-30 13:55:30 +0100] [233913] [INFO] Worker exiting (pid: 233913)
+[2025-12-30 13:55:30 +0100] [233911] [INFO] Worker exiting (pid: 233911)
+[2025-12-30 13:55:31 +0100] [184663] [ERROR] Worker (pid:233910) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:55:31 +0100] [184663] [ERROR] Worker (pid:233912) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:55:31 +0100] [184663] [ERROR] Worker (pid:233911) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:55:31 +0100] [184663] [ERROR] Worker (pid:233913) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 13:55:31 +0100] [234715] [INFO] Booting worker with pid: 234715
+[2025-12-30 13:55:31 +0100] [234716] [INFO] Booting worker with pid: 234716
+[2025-12-30 13:55:31 +0100] [234717] [INFO] Booting worker with pid: 234717
+[2025-12-30 13:55:31 +0100] [234718] [INFO] Booting worker with pid: 234718
+[2025-12-30 16:53:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234715)
+[2025-12-30 16:53:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234716)
+[2025-12-30 16:53:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234717)
+[2025-12-30 16:53:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234718)
+[2025-12-30 16:53:32 +0100] [234715] [INFO] Worker exiting (pid: 234715)
+[2025-12-30 16:53:32 +0100] [234716] [INFO] Worker exiting (pid: 234716)
+[2025-12-30 16:53:32 +0100] [234717] [INFO] Worker exiting (pid: 234717)
+[2025-12-30 16:53:32 +0100] [234718] [INFO] Worker exiting (pid: 234718)
+[2025-12-30 16:53:33 +0100] [184663] [ERROR] Worker (pid:234717) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2025-12-30 16:53:33 +0100] [184663] [ERROR] Worker (pid:234716) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/__main__.py", line 7, in <module>
+    run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1082, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.12/traceback.py", line 124, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "/usr/lib/python3.12/traceback.py", line 733, in __init__
+    self.stack = StackSummary._extract_from_extended_frame_gen(
+  File "/usr/lib/python3.12/traceback.py", line 424, in _extract_from_extended_frame_gen
+    linecache.lazycache(filename, f.f_globals)
+  File "/usr/lib/python3.12/linecache.py", line 147, in lazycache
+    def lazycache(filename, module_globals):
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:234716) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/logging/__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1568, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1684, in _log
+    self.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1700, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1762, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1028, in handle
+    self.emit(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1168, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.12/logging/__init__.py", line 1081, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/__main__.py", line 7, in <module>
+    run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/onasi/proj2_BDA/.venv/lib/python3.12/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:234717) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2025-12-30 16:53:33 +0100] [234728] [INFO] Booting worker with pid: 234728
+[2025-12-30T16:53:33.394+0100] {webserver_command.py:258} ERROR - [1 / 1] Some workers seem to have died and gunicorn did not restart them as expected
+[2025-12-30 16:53:33 +0100] [234729] [INFO] Booting worker with pid: 234729
+[2025-12-30 16:53:33 +0100] [234730] [INFO] Booting worker with pid: 234730
+[2025-12-30 16:53:33 +0100] [234731] [INFO] Booting worker with pid: 234731
+[2025-12-30 19:03:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234728)
+[2025-12-30 19:03:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234729)
+[2025-12-30 19:03:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234730)
+[2025-12-30 19:03:32 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234731)
+[2025-12-30 19:03:32 +0100] [234729] [INFO] Worker exiting (pid: 234729)
+[2025-12-30 19:03:32 +0100] [234731] [INFO] Worker exiting (pid: 234731)
+[2025-12-30 19:03:32 +0100] [234730] [INFO] Worker exiting (pid: 234730)
+[2025-12-30 19:03:32 +0100] [234728] [INFO] Worker exiting (pid: 234728)
+[2025-12-30 19:03:33 +0100] [184663] [ERROR] Worker (pid:234729) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:03:33 +0100] [184663] [ERROR] Worker (pid:234728) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:03:33 +0100] [234754] [INFO] Booting worker with pid: 234754
+[2025-12-30 19:03:33 +0100] [184663] [ERROR] Worker (pid:234730) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:03:33 +0100] [184663] [ERROR] Worker (pid:234731) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:03:33 +0100] [234755] [INFO] Booting worker with pid: 234755
+[2025-12-30 19:03:33 +0100] [234756] [INFO] Booting worker with pid: 234756
+[2025-12-30 19:03:33 +0100] [234757] [INFO] Booting worker with pid: 234757
+[2025-12-30 19:36:42 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234754)
+[2025-12-30 19:36:43 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234755)
+[2025-12-30 19:36:43 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234756)
+[2025-12-30 19:36:43 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:234757)
+[2025-12-30 19:36:43 +0100] [234757] [INFO] Worker exiting (pid: 234757)
+[2025-12-30 19:36:43 +0100] [234755] [INFO] Worker exiting (pid: 234755)
+[2025-12-30 19:36:43 +0100] [234756] [INFO] Worker exiting (pid: 234756)
+[2025-12-30 19:36:43 +0100] [234754] [INFO] Worker exiting (pid: 234754)
+[2025-12-30 19:36:44 +0100] [184663] [ERROR] Worker (pid:234755) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:36:44 +0100] [184663] [ERROR] Worker (pid:234754) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:36:44 +0100] [184663] [ERROR] Worker (pid:234756) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:36:44 +0100] [184663] [ERROR] Worker (pid:234757) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 19:36:44 +0100] [236045] [INFO] Booting worker with pid: 236045
+[2025-12-30 19:36:44 +0100] [236046] [INFO] Booting worker with pid: 236046
+[2025-12-30 19:36:44 +0100] [236047] [INFO] Booting worker with pid: 236047
+[2025-12-30 19:36:44 +0100] [236048] [INFO] Booting worker with pid: 236048
+[2025-12-30 20:11:47 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236045)
+[2025-12-30 20:11:47 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236046)
+[2025-12-30 20:11:47 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236047)
+[2025-12-30 20:11:47 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236048)
+[2025-12-30 20:11:47 +0100] [236047] [INFO] Worker exiting (pid: 236047)
+[2025-12-30 20:11:47 +0100] [236046] [INFO] Worker exiting (pid: 236046)
+[2025-12-30 20:11:47 +0100] [236045] [INFO] Worker exiting (pid: 236045)
+[2025-12-30 20:11:47 +0100] [236048] [INFO] Worker exiting (pid: 236048)
+[2025-12-30 20:11:48 +0100] [184663] [ERROR] Worker (pid:236045) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 20:11:48 +0100] [184663] [ERROR] Worker (pid:236046) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 20:11:48 +0100] [184663] [ERROR] Worker (pid:236047) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 20:11:48 +0100] [184663] [ERROR] Worker (pid:236048) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 20:11:48 +0100] [236055] [INFO] Booting worker with pid: 236055
+[2025-12-30 20:11:49 +0100] [236056] [INFO] Booting worker with pid: 236056
+[2025-12-30 20:11:49 +0100] [236057] [INFO] Booting worker with pid: 236057
+[2025-12-30 20:11:49 +0100] [236058] [INFO] Booting worker with pid: 236058
+[2025-12-30 20:42:16 +0100] [184663] [INFO] Handling signal: ttin
+[2025-12-30 20:42:16 +0100] [238002] [INFO] Booting worker with pid: 238002
+[2025-12-30 20:42:17 +0100] [184663] [INFO] Handling signal: ttou
+[2025-12-30 20:42:17 +0100] [236055] [INFO] Worker exiting (pid: 236055)
+[2025-12-30 20:42:18 +0100] [184663] [ERROR] Worker (pid:236055) was sent SIGTERM!
+[2025-12-30 22:03:37 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236056)
+[2025-12-30 22:03:37 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236057)
+[2025-12-30 22:03:37 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:236058)
+[2025-12-30 22:03:37 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:238002)
+[2025-12-30 22:03:37 +0100] [238002] [INFO] Worker exiting (pid: 238002)
+[2025-12-30 22:03:37 +0100] [236058] [INFO] Worker exiting (pid: 236058)
+[2025-12-30 22:03:37 +0100] [236057] [INFO] Worker exiting (pid: 236057)
+[2025-12-30 22:03:37 +0100] [236056] [INFO] Worker exiting (pid: 236056)
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236056) exited with code 1
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236056) exited with code 1.
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236058) exited with code 1
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236058) exited with code 1.
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:238002) exited with code 1
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:238002) exited with code 1.
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236057) exited with code 1
+[2025-12-30 22:03:38 +0100] [184663] [ERROR] Worker (pid:236057) exited with code 1.
+[2025-12-30 22:03:38 +0100] [241970] [INFO] Booting worker with pid: 241970
+[2025-12-30 22:03:38 +0100] [241972] [INFO] Booting worker with pid: 241972
+[2025-12-30 22:03:38 +0100] [241973] [INFO] Booting worker with pid: 241973
+[2025-12-30 22:03:38 +0100] [241974] [INFO] Booting worker with pid: 241974
+[2025-12-30 22:17:00 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241970)
+[2025-12-30 22:17:00 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241972)
+[2025-12-30 22:17:00 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241973)
+[2025-12-30 22:17:00 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241974)
+[2025-12-30 22:17:00 +0100] [241970] [INFO] Worker exiting (pid: 241970)
+[2025-12-30 22:17:00 +0100] [241972] [INFO] Worker exiting (pid: 241972)
+[2025-12-30 22:17:00 +0100] [241974] [INFO] Worker exiting (pid: 241974)
+[2025-12-30 22:17:00 +0100] [241973] [INFO] Worker exiting (pid: 241973)
+[2025-12-30 22:17:01 +0100] [184663] [ERROR] Worker (pid:241974) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 22:17:01 +0100] [184663] [ERROR] Worker (pid:241970) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 22:17:01 +0100] [184663] [ERROR] Worker (pid:241973) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 22:17:01 +0100] [241978] [INFO] Booting worker with pid: 241978
+[2025-12-30 22:17:01 +0100] [184663] [ERROR] Worker (pid:241972) was sent SIGKILL! Perhaps out of memory?
+[2025-12-30 22:17:01 +0100] [241979] [INFO] Booting worker with pid: 241979
+[2025-12-30 22:17:01 +0100] [241980] [INFO] Booting worker with pid: 241980
+[2025-12-30 22:17:01 +0100] [241981] [INFO] Booting worker with pid: 241981
+[2026-01-01 12:03:58 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241978)
+[2026-01-01 12:03:58 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241979)
+[2026-01-01 12:03:58 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241980)
+[2026-01-01 12:03:58 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:241981)
+[2026-01-01 12:03:58 +0100] [241978] [INFO] Worker exiting (pid: 241978)
+[2026-01-01 12:03:58 +0100] [241980] [INFO] Worker exiting (pid: 241980)
+[2026-01-01 12:03:58 +0100] [241981] [INFO] Worker exiting (pid: 241981)
+[2026-01-01 12:03:58 +0100] [241979] [INFO] Worker exiting (pid: 241979)
+[2026-01-01 12:03:59 +0100] [184663] [ERROR] Worker (pid:241978) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 12:03:59 +0100] [184663] [ERROR] Worker (pid:241980) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 12:03:59 +0100] [184663] [ERROR] Worker (pid:241981) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 12:03:59 +0100] [243052] [INFO] Booting worker with pid: 243052
+[2026-01-01 12:03:59 +0100] [184663] [ERROR] Worker (pid:241979) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 12:03:59 +0100] [243053] [INFO] Booting worker with pid: 243053
+[2026-01-01 12:03:59 +0100] [243055] [INFO] Booting worker with pid: 243055
+[2026-01-01 12:03:59 +0100] [243057] [INFO] Booting worker with pid: 243057
+[2026-01-01 12:11:24 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243052)
+[2026-01-01 12:11:24 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243053)
+[2026-01-01 12:11:24 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243055)
+[2026-01-01 12:11:24 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243057)
+[2026-01-01 12:11:24 +0100] [243057] [INFO] Worker exiting (pid: 243057)
+[2026-01-01 12:11:24 +0100] [243052] [INFO] Worker exiting (pid: 243052)
+[2026-01-01 12:11:24 +0100] [243055] [INFO] Worker exiting (pid: 243055)
+[2026-01-01 12:11:24 +0100] [243053] [INFO] Worker exiting (pid: 243053)
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243052) exited with code 1
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243052) exited with code 1.
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243053) exited with code 1
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243053) exited with code 1.
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243055) exited with code 1
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243055) exited with code 1.
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243057) exited with code 1
+[2026-01-01 12:11:25 +0100] [184663] [ERROR] Worker (pid:243057) exited with code 1.
+[2026-01-01 12:11:25 +0100] [243314] [INFO] Booting worker with pid: 243314
+[2026-01-01 12:11:26 +0100] [243315] [INFO] Booting worker with pid: 243315
+[2026-01-01 12:11:26 +0100] [243316] [INFO] Booting worker with pid: 243316
+[2026-01-01 12:11:26 +0100] [243317] [INFO] Booting worker with pid: 243317
+[2026-01-01 12:23:46 +0100] [184663] [INFO] Handling signal: ttin
+[2026-01-01 12:23:46 +0100] [244137] [INFO] Booting worker with pid: 244137
+[2026-01-01 12:23:47 +0100] [184663] [INFO] Handling signal: ttou
+[2026-01-01 12:23:47 +0100] [243314] [INFO] Worker exiting (pid: 243314)
+[2026-01-01 14:00:29 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243315)
+[2026-01-01 14:00:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243316)
+[2026-01-01 14:00:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:243317)
+[2026-01-01 14:00:30 +0100] [184663] [CRITICAL] WORKER TIMEOUT (pid:244137)
+[2026-01-01 14:00:30 +0100] [243317] [INFO] Worker exiting (pid: 243317)
+[2026-01-01 14:00:30 +0100] [244137] [INFO] Worker exiting (pid: 244137)
+[2026-01-01 14:00:30 +0100] [243315] [INFO] Worker exiting (pid: 243315)
+[2026-01-01 14:00:30 +0100] [243316] [INFO] Worker exiting (pid: 243316)
+[2026-01-01 14:03:44 +0100] [184663] [ERROR] Worker (pid:244137) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 14:03:44 +0100] [184663] [ERROR] Worker (pid:243315) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 14:03:44 +0100] [184663] [ERROR] Worker (pid:243316) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 14:03:44 +0100] [184663] [ERROR] Worker (pid:243317) was sent SIGKILL! Perhaps out of memory?
+[2026-01-01 14:03:44 +0100] [249940] [INFO] Booting worker with pid: 249940
+[2026-01-01 14:03:44 +0100] [249941] [INFO] Booting worker with pid: 249941
+[2026-01-01 14:03:44 +0100] [249942] [INFO] Booting worker with pid: 249942
+[2026-01-01 14:03:44 +0100] [249943] [INFO] Booting worker with pid: 249943
+[2026-01-01 14:13:07 +0100] [184663] [INFO] Handling signal: ttin
+[2026-01-01 14:13:07 +0100] [250551] [INFO] Booting worker with pid: 250551
+[2026-01-01 14:13:08 +0100] [184663] [INFO] Handling signal: ttou
+[2026-01-01 14:13:08 +0100] [249940] [INFO] Worker exiting (pid: 249940)
